@@ -33,7 +33,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void Play()
     {
-        SceneManager.GetSceneByName("Play");
+        SceneManager.LoadScene("Play");
     }
 
     public void Quit()

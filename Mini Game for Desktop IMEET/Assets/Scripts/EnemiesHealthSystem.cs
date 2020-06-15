@@ -16,6 +16,8 @@ public class EnemiesHealthSystem : MonoBehaviour
 
     private bool isTakingDamage;
 
+    public GameObject GameOverUI;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +42,12 @@ public class EnemiesHealthSystem : MonoBehaviour
         currentHealth -= damage;
 
         healthBar.SetHealth(currentHealth);
+
+        if (currentHealth == 0)
+        {
+            Time.timeScale = 0f;
+            GameOverUI.SetActive(true);
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
