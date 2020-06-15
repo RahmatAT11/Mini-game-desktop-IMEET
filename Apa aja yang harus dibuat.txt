@@ -1,0 +1,33 @@
+UI
+-Struktur UI
+----Start Menu
+	
+	Nama Game
+	
+	
+	How To Play 	--> petunjuk permainan, bagaimana cara level up, dan lain-lain yang berhubungan dengan petunjuk permainan
+	Challenge Quiz	--> grinding level
+	Start 		--> Bermain gamenya
+	Quit 		--> keluar dari game
+
+----Pause Menu
+	
+	Restart		--> Mengulang permainan
+	Main Menu	--> Kembali ke menu utama
+	Quit		--> keluar dari game
+
+-Cara gamenya bekerja
+-- Pemain mengerjakan quiz dari challenge quiz untuk level up
+-- setiap stage membutuhkan persyaratan untuk bisa dimainkan, yaitu level 2 untuk stage 1, level 4 untuk stage 2. (setiap stage memiliki 2 gap level)
+-- stage hanya ada 2 (Bisa lebih)
+-- Player harus mengalahkan boss di stage supaya bisa menang.
+-- Ada tambahan...?
+
+-Karakter dan Art
+-- Karakter 3D
+-- Environtmentnya 3D
+-- Musuhnya 3D
+-- ada saran..??
+	
+
+
