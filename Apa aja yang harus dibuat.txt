@@ -6,8 +6,7 @@ UI
 	
 	
 	How To Play 	--> petunjuk permainan, bagaimana cara level up, dan lain-lain yang berhubungan dengan petunjuk permainan
-	Challenge Quiz	--> grinding level
-	Start 		--> Bermain gamenya
+	Start 		--> Bermain gamenya, didalam permainan, player harus leveling up terlebih dahulu dengan mengerjakan quiz
 	Quit 		--> keluar dari game
 
 ----Pause Menu
@@ -17,7 +16,9 @@ UI
 	Quit		--> keluar dari game
 
 -Cara gamenya bekerja
--- Pemain mengerjakan quiz dari challenge quiz untuk level up
+-- Pemain mengerjakan quiz level up.
+-- Satu quiz, berisi satu soal. Satu soal bernilai 10 exp jika benar, 0 jika salah.
+-- exp akan sepenuhnya dimasukkan ke dalam attack power
 -- setiap stage membutuhkan persyaratan untuk bisa dimainkan, yaitu level 2 untuk stage 1, level 4 untuk stage 2. (setiap stage memiliki 2 gap level)
 -- stage hanya ada 2 (Bisa lebih)
 -- Player harus mengalahkan boss di stage supaya bisa menang.
